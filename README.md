@@ -1,4 +1,6 @@
-matlab-utilities
+MATLAB Utilities
 ================
 
-My general-purpose MATLAB utilities.
+This repository contains my general-purpose MATLAB utilities.
+These include:
+ - Timestamp: Timestamp handling and conversion functions
