@@ -29,7 +29,7 @@ function [res] = ProfileFunction(dir, f_handle, varargin)
 %           res - Result data structure containing function call output
 %
 
-    profile on -history;
+    profile -history -memory on;
     res = f_handle(varargin{:});
     profile viewer;
     p = profile('info');
