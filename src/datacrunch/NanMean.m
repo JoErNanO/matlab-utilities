@@ -1,3 +1,15 @@
+%% 
+% Copyright (C) 2015 Francesco Giovannini
+% Authors: Francesco Giovannini <joernano@gmail.com>
+% Website: http://www.francescogiovannini.com/
+% Permission is granted to copy, distribute, and/or modify this program under the terms of 
+% the GNU General Public License, version 2 or any later version published by the Free Software Foundation.
+%
+% This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
+% the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+% Public License for more details.
+% 
+
 function [res] = NanMean(data, varargin)
 %NANMEAN Compute the mean of the given matrix, disregarding elements
 %containing NaN's.
